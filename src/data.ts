@@ -1,0 +1,68 @@
+import { Flashcard } from './types';
+
+export const INITIAL_VOCABULARY: Flashcard[] = [
+  {
+    id: '1',
+    word: 'Meticulous',
+    partOfSpeech: 'adjective',
+    meaning: 'พิถีพิถัน, ละเอียดลออ, ถี่ถ้วน',
+    example: 'She was meticulous about keeping her medical records extremely organized.',
+    createdAt: 1717551000000,
+  },
+  {
+    id: '2',
+    word: 'Pragmatic',
+    partOfSpeech: 'adjective',
+    meaning: 'เน้นการปฏิบัติจริง, เหมาะสมกับสถานการณ์, มีเหตุผลในทางปฏิบัติ',
+    example: 'We must take a pragmatic approach to solve this community issue.',
+    createdAt: 1717551100000,
+  },
+  {
+    id: '3',
+    word: 'Resilient',
+    partOfSpeech: 'adjective',
+    meaning: 'ยืดหยุ่น, ฟื้นตัวเร็ว, ล้มแล้วลุกเร็ว',
+    example: 'The local economy proved highly resilient despite the global crisis.',
+    createdAt: 1717551200000,
+  },
+  {
+    id: '4',
+    word: 'Eloquent',
+    partOfSpeech: 'adjective',
+    meaning: 'พูดจาเก่ง, มีวาทศิลป์, แสดงออกถึงความคิดได้อย่างชัดเจน',
+    example: 'His eloquent speech inspired thousands of people to take positive action.',
+    createdAt: 1717551300000,
+  },
+  {
+    id: '5',
+    word: 'Benevolent',
+    partOfSpeech: 'adjective',
+    meaning: 'เมตตา, ใจดี, ใจบุญ, หวังดี',
+    example: 'A benevolent donor provided enough funds to reconstruct the public library.',
+    createdAt: 1717551400000,
+  },
+  {
+    id: '6',
+    word: 'Diligent',
+    partOfSpeech: 'adjective',
+    meaning: 'ขยันขันแข็ง, อุตสาหะ, พากเพียร',
+    example: 'Thanks to her diligent study habits, she successfully passed the exam with top marks.',
+    createdAt: 1717551500000,
+  },
+  {
+    id: '7',
+    word: 'Scrutinize',
+    partOfSpeech: 'verb',
+    meaning: 'ตรวจสอบอย่างละเอียดรอบคอบ, พินิจพิเคราะห์',
+    example: 'Customers should scrutinize the terms and conditions before signing up.',
+    createdAt: 1717551600000,
+  },
+  {
+    id: '8',
+    word: 'Inevitably',
+    partOfSpeech: 'adverb',
+    meaning: 'อย่างหลีกเลี่ยงไม่ได้, อย่างแน่นอน',
+    example: 'With hard work and dedication, success will inevitably follow.',
+    createdAt: 1717551700000,
+  },
+];
